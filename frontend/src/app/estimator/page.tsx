@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
-import { Loader2, CheckCircle, AlertCircle } from "lucide-react";
+import { Loader2, CheckCircle, AlertCircle, BrainCircuit } from "lucide-react";
 
 type FormData = {
   client_name: string;
